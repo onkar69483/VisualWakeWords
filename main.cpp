@@ -169,6 +169,10 @@ int main()
 {
     BoardInit();
 
+    /* Green LED on PD.5 — active-low: LOW = on, HIGH = off */
+    GPIO_SetMode(PD, BIT5, GPIO_MODE_OUTPUT);
+    PD5 = 1; /* off by default */
+
     arm::app::NNModel model;
 
     if (!model.Init(arm::app::tensorArena,
@@ -311,7 +315,14 @@ int main()
             postProcess.RunPostProcess(infFramebuf->results);
 
             if (!infFramebuf->results.empty())
+            {
                 DrawDetectFace(infFramebuf->results, &infFramebuf->frameImage);
+                PD5 = 0; /* face detected — LED on */
+            }
+            else
+            {
+                PD5 = 1; /* no face — LED off */
+            }
 
 #if defined(__USE_DISPLAY__)
             sDispRect.u32TopLeftX    = 0;

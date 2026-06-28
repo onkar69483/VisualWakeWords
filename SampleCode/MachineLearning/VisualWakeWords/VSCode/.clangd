@@ -1,0 +1,55 @@
+CompileFlags:
+  CompilationDatabase: >-
+    d:\Projects\uv\M55M1BSP\SampleCode\MachineLearning\VisualWakeWords\VSCode\out\VisualWakeWords\ARMCLANG\Release
+  Add:
+    - '-D__ARMCOMPILER_LIBCXX=1'
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../Library/CMSIS/Core/Include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../Library/Device/Nuvoton/M55M1/Include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../Library/CMSIS/DSP/Include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../Library/StdDriver/inc
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../Library/StdDriver/inc/npu
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/openmv/omv/imlib
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/openmv/omv/alloc
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/openmv/omv/common
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/openmv/omv/Lib
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/tflite_micro
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/tflite_micro/_deps/tensorflow-flatbuffers-src/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/tflite_micro/_deps/tensorflow-gemlowp-src
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/ml-embedded-evaluation-kit/source/application/api/common/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/ml-embedded-evaluation-kit/source/log/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/ml-embedded-evaluation-kit/source/math/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/ml-embedded-evaluation-kit/source/application/main/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../../../../ThirdParty/ml-embedded-evaluation-kit/source/profiler/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../Device/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../Model/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../NPU/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../Pattern/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/../ProfilerCounter/include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/tmp/VisualWakeWords.Release+ARMCLANG
+    - >-
+      -IC:/Users/DELL/AppData/Local/arm/packs/Nuvoton/NuMicroM55_DFP/3.1.4-rc.3/Library/Device/Nuvoton/M55M1/Include
+    - >-
+      -ID:/Projects/uv/M55M1BSP/SampleCode/MachineLearning/VisualWakeWords/VSCode/..
